@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <header class="quiz-header pad">
+        <h1 class="quiz-title">KBC Quiz</h1>
+      </header>
+
+      <!-- Quiz Area -->
+      <div id="quiz" class="quiz-content pad">
+        <div id="question-number" class="question-number"></div>
+        <div id="question-text" class="question-text pad"></div>
+        <ul id="options-list" class="options-list"></ul>
+        <div class="next-div">
+          <button id="next-button" class="btn next-btn">Next Question</button>
+        </div>
+      </div>
+
+      <!-- Scoreboard screen -->
+      <div id="scoreboard" class="scoreboard hidden pad">
+        <h2>Quiz completed</h2>
+        <p id="score-message" class="score-message pad"></p>
+        <div class="restart-div">
+        <button class="btn restart-btn pad" id="restart-button">
+          Restart Quiz
+        </button>
+        </div>
+      </div>
+
+      <footer class="quiz-footer pad">
+        <p>2025 KBC-style Quiz. All rights reserved, Created by <a href="https://www.instagram.com/shxbh_exe/">@shxbh_exe</a></p>
+        
+      </footer>
+
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
