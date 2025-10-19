@@ -144,7 +144,7 @@ function endQuiz() {
 }
 
 restartButton.addEventListener("click", function () {
-  initializeQuiz();
+  startQuiz();
 });
 
 function shuffleArray(array) {
